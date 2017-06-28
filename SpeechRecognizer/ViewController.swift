@@ -14,7 +14,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     
     @IBOutlet weak var activitySpinner: UIActivityIndicatorView!
-    @IBOutlet weak var transcriptionTextField: UITextView!    
+    @IBOutlet weak var transcriptionTextField: UITextView!
     @IBAction func playBtnPressed(_ sender: Any) {
         activitySpinner.isHidden = false
         activitySpinner.startAnimating()
